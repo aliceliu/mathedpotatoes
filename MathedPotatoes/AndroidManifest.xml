@@ -21,10 +21,17 @@
         <activity
             android:name="com.example.mathedpotatoes.DoMathActivity"
             android:label="@string/title_activity_do_math" >
+            
+        </activity>
+        <activity
+            android:name="com.example.mathedpotatoes.HomePageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/FullscreenTheme" >
             <intent-filter>
-            	<action android:name="android.intent.action.MAIN" />
-            	<category android:name="android.intent.category.LAUNCHER" />
-        	</intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
